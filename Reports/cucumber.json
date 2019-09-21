@@ -1,0 +1,72 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-21T23:26:46.591Z",
+        "line": 3,
+        "name": "To Check Login Functionality with valid user name and valid password",
+        "description": "",
+        "id": "db-login;to-check-login-functionality-with-valid-user-name-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3888237300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Chrome is opened \u0026 Login Page is dispalyed",
+            "match": {
+              "location": "StepsForLogin.chrome_is_opened_Login_Page_is_dispalyed()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113020200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username \u0026 Password",
+            "match": {
+              "location": "StepsForLogin.user_enters_username_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3959150500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Login",
+            "match": {
+              "location": "StepsForLogin.click_on_Login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7608200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "HomePage Should be displayed",
+            "match": {
+              "location": "StepsForLogin.homepage_Should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "DB Login",
+    "description": "",
+    "id": "db-login",
+    "keyword": "Feature",
+    "uri": "file:Features/Login.feature",
+    "tags": []
+  }
+]
